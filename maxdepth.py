@@ -1,13 +1,13 @@
 from math import inf
 
 
-ramos = {"a", "b", "c", "d", "e", "f", "g", }
+ramos = {"a", "b", "c", "d", "e", "f", "g"}
 
 # ramo: prerequisitos de este
 prerreq = {
     "a": ["b"],
     "b": ["c", "g"],
-    "c": ["d", "b"],
+    "c": ["d"],
     "d": [],
     "e": ["f", "d"],
     "f": ["g"],
